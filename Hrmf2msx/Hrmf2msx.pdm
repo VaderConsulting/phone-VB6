@@ -1,0 +1,213 @@
+[Root]
+Most Recent Package=Standard Setup Package rk
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Projects\Phonebook\Source\VB\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\Common Files\system\ADO\msado21.tlb=
+C:\WINNT\system32\activeds.tlb=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Projects\Phonebook\Source\VB\HRMF2MSX.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\activeds.tlb=Yes
+C:\Program Files\Common Files\system\ADO\msado21.tlb=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Projects\Phonebook\Source\VB\HRMF2MSX.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\activeds.tlb=$(WinSysPath)
+C:\Program Files\Common Files\system\ADO\msado21.tlb=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Projects\Phonebook\Source\VB\HRMF2MSX.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=HRMF2MSX
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=CSC
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|CSC]
+Icon1=HRMF2MSX.exe
+Title1=HRMF2MSX
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Projects\Phonebook\Source\VB\Package
+ProjectFolder=D:\Projects\Phonebook\Source\VB
+ServerSideCab=
+File1=D:\Projects\Phonebook\Source\VB\Package\setup.exe
+File2=D:\Projects\Phonebook\Source\VB\Package\Setup.Lst
+File3=D:\Projects\Phonebook\Source\VB\Package\HRMF2MSX.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package rk|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=s:\Projects\PhoneBook Replacement\Source\vb6\HRMF2MSX
+
+[Package|Standard Setup Package rk|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package rk|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package rk|Files Found]
+
+[Package|Standard Setup Package rk|Files Released]
+
+[Package|Standard Setup Package rk|Missing Dependency Information]
+C:\Program Files\Common Files\system\ADO\msado21.tlb=
+C:\WINNT\system32\activeds.tlb=
+C:\WINNT\system32\ADsSecurity.dll=
+C:\Program Files\Common Files\system\ado\msado20.tlb=
+
+[Package|Standard Setup Package rk|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package rk|Files Added]
+C:\Program Files\Common Files\system\ado\msado20.tlb=
+
+[Package|Standard Setup Package rk|Files Removed]
+c:\program files\common files\system\ado\msado21.tlb=
+
+[Package|Standard Setup Package rk|Files In Project]
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\activeds.tlb=Yes
+C:\Program Files\Common Files\system\ADO\msado21.tlb=No
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+S:\PROJECTS\PhoneBook Replacement\Source\vb6\HRMF2MSX\HRMF2MSX1.exe=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\ADsSecurity.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Common Files\system\ado\msado20.tlb=Yes
+
+[Package|Standard Setup Package rk|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package rk|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package rk|Install Locations]
+D:\Projects\Phonebook\Source\VB\HRMF2MSX.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\activeds.tlb=$(WinSysPath)
+C:\Program Files\Common Files\system\ADO\msado21.tlb=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+S:\PROJECTS\PhoneBook Replacement\Source\vb6\HRMF2MSX\HRMF2MSX1.exe=$(AppPath)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ADsSecurity.dll=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Common Files\system\ado\msado20.tlb=$(WinSysPath)
+
+[Package|Standard Setup Package rk|Configure Shared Files]
+Applicable=Yes
+D:\Projects\Phonebook\Source\VB\HRMF2MSX.exe=No
+S:\PROJECTS\PhoneBook Replacement\Source\vb6\HRMF2MSX\HRMF2MSX1.exe=No
+
+[Package|Standard Setup Package rk|Distribution]
+Type=single
+Size=
+Title=HRMF2MSX1
+
+[Package|Standard Setup Package rk|IconGroups]
+Group0=CSC
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package rk|CSC]
+Icon1=HRMF2MSX.exe
+Title1=HRMF2MSX
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package rk|Package]
+PackageFolder=s:\Projects\PhoneBook Replacement\Source\vb6\HRMF2MSX
+ProjectFolder=S:\PROJECTS\PhoneBook Replacement\Source\vb6\HRMF2MSX
+ServerSideCab=
+File1=s:\Projects\PhoneBook Replacement\Source\vb6\HRMF2MSX\setup.exe
+File2=s:\Projects\PhoneBook Replacement\Source\vb6\HRMF2MSX\Setup.Lst
+File3=s:\Projects\PhoneBook Replacement\Source\vb6\HRMF2MSX\HRMF2MSX1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

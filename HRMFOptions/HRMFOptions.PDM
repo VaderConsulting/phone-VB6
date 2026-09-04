@@ -1,0 +1,90 @@
+[Root]
+Most Recent Package=Standard Setup Package 1 rk
+
+
+[Package|Standard Setup Package 1 rk|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=S:\PROJECTS\PhoneBook Replacement\Source\vb6\HRMFOptions\Package
+
+[Package|Standard Setup Package 1 rk|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1 rk|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1 rk|Files Found]
+
+[Package|Standard Setup Package 1 rk|Files Released]
+
+[Package|Standard Setup Package 1 rk|Missing Dependency Information]
+
+[Package|Standard Setup Package 1 rk|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1 rk|Files Added]
+
+[Package|Standard Setup Package 1 rk|Files Removed]
+
+[Package|Standard Setup Package 1 rk|Files In Project]
+S:\PROJECTS\PhoneBook Replacement\Source\vb6\HRMFOptions\HRMFOptions1.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\TabCtl32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1 rk|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1 rk|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1 rk|Install Locations]
+S:\PROJECTS\PhoneBook Replacement\Source\vb6\HRMFOptions\HRMFOptions1.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\TabCtl32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1 rk|Configure Shared Files]
+Applicable=Yes
+S:\PROJECTS\PhoneBook Replacement\Source\vb6\HRMFOptions\HRMFOptions1.exe=No
+
+[Package|Standard Setup Package 1 rk|Distribution]
+Type=single
+Size=
+Title=HRMFOptions rk
+
+[Package|Standard Setup Package 1 rk|IconGroups]
+Group0=HRMFOptions rk
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1 rk|HRMFOptions rk]
+Icon1=HRMFOptions1.exe
+Title1=HRMFOptions rk
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1 rk|Package]
+PackageFolder=S:\PROJECTS\PhoneBook Replacement\Source\vb6\HRMFOptions\Package
+ProjectFolder=S:\PROJECTS\PhoneBook Replacement\Source\vb6\HRMFOptions
+ServerSideCab=
+File1=S:\PROJECTS\PhoneBook Replacement\Source\vb6\HRMFOptions\Package\setup.exe
+File2=S:\PROJECTS\PhoneBook Replacement\Source\vb6\HRMFOptions\Package\Setup.Lst
+File3=S:\PROJECTS\PhoneBook Replacement\Source\vb6\HRMFOptions\Package\HRMFOptions1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
