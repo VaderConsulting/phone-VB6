@@ -1,6 +1,6 @@
 # phone
 
-VB6 working copy of `phone` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: HRMFOptions. Output: `HRMFOptions1.exe`. `VersionCompanyName`: Computer Sciences Corporation. Contains 2 project files.
+CSC VB6 HRMF→Exchange phonebook transfer (`HRMF2MSX1.exe` / `Hrmf2msx.vbp`): pushes HR/phonebook changes into Microsoft Exchange (optional AUTO mode), with companion `HRMFOptions` for registry options. Open `Hrmf2msx/Hrmf2msx.vbp` in the VB6 IDE.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
